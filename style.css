@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/mydp.jpg") no-repeat center;
+    background: url("images/bg.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -224,7 +224,12 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 116px;
+    /* changing style */
+        border: 7px solid #ddd;
+        
+        padding: 5px;
+        
 }
 .about .about-content .right{
     width: 55%;
@@ -363,19 +368,22 @@ section .title::after{
     background: orangered;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
 }
-.skills-content .right .js::before{
-    width: 90%;
+.skills-content .right .java::before{
+    width: 80%;
 }
-.skills-content .right .php::before{
-    width: 60%;
+.skills-content .right .cpp::before{
+    width: 70%;
 }
-.skills-content .right .mysql::before{
-    width: 60%;
+.skills-content .right .python::before{
+    width: 50%;
+}
+.skills-content .right .bootstrap::before{
+    width: 70%;
 }
 
 /* teams section styling */
@@ -477,7 +485,7 @@ section .title::after{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
-.contact .right form .fields{
+/* .contact .right form .fields{
     display: flex;
 }
 .contact .right form .field,
@@ -535,7 +543,42 @@ section .title::after{
 .right form .button-area button:hover{
   color: orangered;
   background: none;
+} */
+
+
+#msg{
+height: 100%;
+width: 100%;
+padding: 30px;
+border-radius: 10px;
+border: 2px solid black;
+font-size: large;
+height: 20vw;
+margin-top: 0vh;
+background-color:  rgba(255, 251, 251, 0.855);
 }
+.eb{
+ border: 2px solid black;
+ width: 80%;
+ height: 7vh;
+ border-radius: 17px;
+ background-color: rgba(255, 251, 251, 0.855);
+ padding-left: 22px;
+ font-weight: 5000;
+}
+.btnf{
+    width: 100%;
+    margin-top: 2vw;
+    background-color:orangered;
+    color: white;
+    font-size: large;
+    font-family: serif;
+}
+.fo{
+    display: flex;
+   flex-direction: column;
+}
+
 /* footer section styling */
 footer{
     background: #111;
