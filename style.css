@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bg.png") no-repeat center;
+    background: url("images/bg.png") no-repeat center ;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -367,23 +367,23 @@ section .title::after{
     top: 0;
     background: orangered;
 }
-.skills-content .right .html::before{
-    width: 80%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .java::before{
-    width: 80%;
-}
 .skills-content .right .cpp::before{
     width: 70%;
+}
+.skills-content .right .frontend::before{
+    width: 60%;
+}
+.skills-content .right .deluge::before{
+    width: 75%;
+}
+.skills-content .right .dsa::before{
+    width: 50%;
 }
 .skills-content .right .python::before{
     width: 50%;
 }
 .skills-content .right .bootstrap::before{
-    width: 70%;
+    width: 80%;
 }
 
 /* teams section styling */
@@ -485,6 +485,9 @@ section .title::after{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+.contact .contact-content .info .sub-title a{
+    color: red;
+}
 /* .contact .right form .fields{
     display: flex;
 }
@@ -558,10 +561,10 @@ margin-top: 0vh;
 background-color:  rgba(255, 251, 251, 0.855);
 }
 .eb{
- border: 2px solid black;
+ border: 1px solid black;
  width: 80%;
  height: 7vh;
- border-radius: 17px;
+ border-radius: 15px;
  background-color: rgba(255, 251, 251, 0.855);
  padding-left: 22px;
  font-weight: 5000;
@@ -573,6 +576,17 @@ background-color:  rgba(255, 251, 251, 0.855);
     color: white;
     font-size: large;
     font-family: serif;
+    
+}
+.btnf:hover{
+    border-color: orangered;
+    width: 100%;
+    margin-top: 2vw;
+    background-color:white;
+    color: orangered;
+    font-size: large;
+    font-family: serif;
+    
 }
 .fo{
     display: flex;
